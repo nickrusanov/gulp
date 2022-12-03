@@ -38,7 +38,7 @@ const build = gulp.series(
 )
 
 const dev = gulp.series(
-	build,
+	gulp.parallel(html, sass, js, img, fonts),
 	gulp.parallel(server, watching)
 )
 
