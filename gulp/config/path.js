@@ -23,9 +23,9 @@ export default {
 	},
 
 	img: {
-		src: `${srcPath}/img/**/*.{png,jpg,jpeg,gif,svg}`,
+		src: `${srcPath}/img/**/*.{png,jpg,jpeg,gif,svg,ico}`,
 		dist: `${distPath}/img`,
-		watch: `${srcPath}/img/**/*.{png,jpg,jpeg,gif,svg}`
+		watch: `${srcPath}/img/**/*.{png,jpg,jpeg,gif,svg,ico}`
 	},
 
 	fonts: {

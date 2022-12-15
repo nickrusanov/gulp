@@ -1,6 +1,6 @@
-import newer from 'gulp-newer'
-import fonter from 'gulp-fonter'
-import ttf2woff2 from 'gulp-ttf2woff2'
+import newer from 'gulp-newer';
+import fonter from 'gulp-fonter';
+import ttf2woff2 from 'gulp-ttf2woff2';
 
 export default () =>
 	app.gulp.src(app.path.fonts.src)
