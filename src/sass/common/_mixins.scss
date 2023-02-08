@@ -22,8 +22,8 @@
 	}
 }
 
-@mixin media {
-	@media (max-width: $screen-sm) {
+@mixin media($screen) {
+	@media (max-width: $screen) {
 		@content;
 	}
 }

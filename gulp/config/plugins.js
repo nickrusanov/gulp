@@ -26,6 +26,10 @@ export default {
 		presets: ['@babel/env']
 	},
 
+	webpack: {
+		mode: 'development'
+	},
+
 	fonter: {
 		formats: ['ttf', 'woff', 'eot', 'svg']
 	}
