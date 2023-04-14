@@ -1,3 +1,9 @@
+@mixin trans($trans-dur: 0.3s) {
+	transition: all $trans-dur ease;
+}
+
+// MEDIA
+
 @mixin sm {
 	@media (max-width: $screen-sm) {
 		@content;

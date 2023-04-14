@@ -1,7 +1,30 @@
+// COLORS
+
+:root {
+	--color-primary: white;
+	--color-secondary: black;
+}
+
+// SPACES
+
+:root {
+	--space-base: 100px;
+	--space-sm: calc(var(--space-base) * 0.2);
+	--space-md: calc(var(--space-base) * 0.4);
+	--space-lg: calc(var(--space-base) * 0.6);
+	--space-xl: calc(var(--space-base) * 1);
+}
+
 // FONTS
 
-$fonts-root: '../fonts/';
+$fonts-root: "../fonts/";
 
+:root {
+	--font-size-sm: .75rem;
+	--font-size-md: 1.25rem;
+	--font-size-lg: 1.5rem;
+	--font-size-xl: 1.75rem;
+}
 
 // MEDIA
 
@@ -9,3 +32,12 @@ $screen-sm: 480px;
 $screen-md: 768px;
 $screen-lg: 992px;
 $screen-xl: 1200px;
+
+// LAYERS
+
+$layer-1: 1; // Elements in flow
+$layer-2: 2; // Elements in flow
+$layer-3: 3; // Masks
+$layer-4: 4; // Sidebars
+$layer-5: 5; // Modals
+$layer-6: 6; // Covering all
