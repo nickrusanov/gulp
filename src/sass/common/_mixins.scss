@@ -1,8 +1,4 @@
-@mixin trans($trans-dur: 0.3s) {
-	transition: all $trans-dur ease;
-}
-
-// MEDIA
+// SCREENS
 
 @mixin sm {
 	@media (max-width: $screen-sm) {
@@ -33,3 +29,17 @@
 		@content;
 	}
 }
+
+@mixin effect {
+	@media (hover: hover) and (pointer: fine) {
+		@content;
+	}
+}
+
+// EFFECTS
+
+@mixin trans($trans-dur: 0.3s) {
+	transition: all $trans-dur ease;
+}
+
+// ELEMENTS
